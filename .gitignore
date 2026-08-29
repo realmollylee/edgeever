@@ -47,7 +47,3 @@ credentials.json
 /assets/brand/edgeever-concept-13.png
 /docs/notion-ai-feature-landscape.en-US.md
 /docs/notion-ai-feature-landscape.zh-CN.md
-
-# fnOS FPK build artifacts
-/apps/fnos/*.fpk
-/apps/fnos/app.tgz

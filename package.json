@@ -1,6 +1,6 @@
 {
   "name": "edgeever",
-  "version": "1.45.2",
+  "version": "1.46.0",
   "private": true,
   "type": "module",
   "workspaces": [
@@ -71,7 +71,6 @@
     "typecheck:ios-editor": "bun run --cwd apps/ios/EditorSource typecheck",
     "test:restore-deleted-notebook": "bun scripts/test-restore-deleted-notebook.mjs",
     "test:mcp": "bun scripts/test-mcp.mjs",
-    "test:fpk": "bun test scripts/build-fpk.test.mjs",
     "db:migrate:local": "bun scripts/local-dev.mjs prepare local",
     "db:migrate:demo": "bun scripts/local-dev.mjs prepare demo",
     "db:migrate:remote": "bun scripts/run-wrangler.mjs d1 migrations apply DB --remote",
@@ -188,7 +187,7 @@
     "typescript": "latest",
     "vite": "latest",
     "vite-plugin-pwa": "^1.3.0",
-    "wrangler": "^4.112.0"
+    "wrangler": "workspace:*"
   },
   "patchedDependencies": {
     "expo-sharing@57.0.8": "patches/expo-sharing@57.0.8.patch",
